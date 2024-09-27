@@ -1,0 +1,146 @@
+.main-form{
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: black;
+}
+
+.heading{
+    font-size: 30px;
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+form select {
+    border-radius: 10px;
+    width: 250px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* From Uiverse.io by kamehame-ha */ 
+.coolinput {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    position: static;
+    max-width: 540px;
+  }
+  
+  .coolinput label.text {
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    top: 0.0rem;
+    margin: 0 0 0 7px;
+    padding: 0 3px;
+    background: transparent;
+    width: fit-content;
+  }
+  
+  .coolinput input[type=text].input {
+    padding: 11px 50px;
+    font-size: 1rem;
+    border: 2px #727274 solid;
+    border-radius: 5px;
+    background: #e8e8e8;
+    text-align: center;
+  }
+  
+  .coolinput input[type=text].input:focus {
+    outline: none;
+  }
+
+  /* From Uiverse.io by Gaurav-WebDev */ 
+.button {
+    height: 50px;
+    width: 150px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .button:hover {
+    box-shadow: .5px .5px 150px #252525;
+  }
+  
+  .type1::after {
+    content: "Post";
+    height: 50px;
+    width: 150px;
+    background-color: #008080;
+    color: #fff;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translateY(50px);
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .type1::before {
+    content: "Add";
+    height: 50px;
+    width: 150px;
+    background-color: #fff;
+    color: #008080;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translateY(0px) scale(1.2);
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .type1:hover::after {
+    transform: translateY(0) scale(1.2);
+  }
+  
+  .type1:hover::before {
+    transform: translateY(-50px) scale(0) rotate(120deg);
+  }
